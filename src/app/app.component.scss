@@ -1,24 +1,8 @@
 
 
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-h1,h2,h3 {
-  color: #272727;
-}
 
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
-}
+
+
 
 
 /*
@@ -50,6 +34,7 @@ body {
   min-height: 600px;
 }
 .cover-container {
+
 }
 
 
@@ -63,6 +48,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  color: #fff;
 }
 
 .nav-masthead .nav-link {
@@ -112,6 +98,11 @@ body {
   }
 }
 
+.page-left, .page-right {
+  display: flex;
+  flex-grow:1;
+  flex-direction: column;
+}
 
 /*
  * Footer
