@@ -1,14 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
+import { RedeemWizardComponent } from './redeem-wizard/redeem-wizard.component';
+import { HomeCtaComponent } from './home-cta/home-cta.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RedeemWizardComponent,
+    HomeCtaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
