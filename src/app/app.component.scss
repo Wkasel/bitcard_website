@@ -6,6 +6,9 @@ a:focus,
 a:hover {
   color: #fff;
 }
+h1,h2,h3 {
+  color: #272727;
+}
 
 /* Custom default button */
 .btn-secondary,
@@ -25,6 +28,7 @@ a:hover {
 html,
 body {
   height: 100%;
+  color: #272727;
 }
 
 body {
@@ -53,7 +57,8 @@ body {
  * Header
  */
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
+  padding-bottom: 4em;
 }
 
 .masthead-brand {
@@ -97,10 +102,14 @@ body {
  */
 .cover {
   padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
+  .container {
+    .btn-lg {
+      border: 2px solid #fff;
+      color: #fff;
+      padding: .75rem 1.25rem;
+      font-weight: 700;
+    }
+  }
 }
 
 
